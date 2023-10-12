@@ -7,6 +7,7 @@
     tools:context=".MainActivity"
     android:background="@color/morado">
 
+
     <EditText
         android:id="@+id/editTextNumero"
         android:layout_width="170dp"
@@ -44,6 +45,7 @@
         app:layout_constraintVertical_bias="0.486" />
 
     <LinearLayout
+        android:id="@+id/layoutbttm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumero"
@@ -87,5 +89,16 @@
             android:paddingEnd="7dp"
             android:text="Cambiar F" />
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="364dp"
+        android:src="@drawable/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
