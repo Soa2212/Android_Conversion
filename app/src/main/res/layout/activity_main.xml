@@ -16,8 +16,10 @@
         android:paddingStart="5dp"
         android:paddingTop="6dp"
         android:paddingEnd="5dp"
+        android:textSize="13dp"
         android:paddingBottom="6dp"
         android:hint="Ingrese un numero"
+        android:fontFamily="@font/minecraft_font"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +40,7 @@
         android:paddingStart="7dp"
         android:paddingTop="6dp"
         android:paddingEnd="7dp"
+        android:fontFamily="@font/minecraft_font"
         android:paddingBottom="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumero"
@@ -64,6 +67,7 @@
             android:paddingStart="7dp"
             android:paddingEnd="7dp"
             android:text="Cambiar C"
+            android:fontFamily="@font/minecraft_font"
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"/>
         <TextView
@@ -76,10 +80,13 @@
             android:paddingStart="7dp"
             android:paddingEnd="7dp"
             android:text="Cambiar K"
+            android:fontFamily="@font/minecraft_font"
+
             android:layout_marginEnd="20dp"/>
 
         <TextView
             android:id="@+id/F"
+            android:fontFamily="@font/minecraft_font"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/background"
@@ -93,7 +100,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="364dp"
+        android:layout_marginTop="454dp"
         android:src="@drawable/bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
